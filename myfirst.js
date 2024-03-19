@@ -1,0 +1,1 @@
+console.log("This is my first java scripts to kesi lgi apko comments main btana na bholen");
