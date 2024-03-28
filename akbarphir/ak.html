@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        li{
+display: flex;
+justify-content: space-between;
+
+        }
+        #todos li button{
+            
+            background-color: blueviolet;
+            color: white;
+        }
+    </style>
+    <script src="./ak.js"></script>
+</head>
+<body>
+    <input type="text" id="myinput">
+    <button id="btnAdd">Add To Do</button>
+    <ul id="todos">
+        <li>Apple <button onclick="handleDelete(event)">Delete</button></li>
+        <li>Banana <button onclick="handleDelete(event)">Delete</button></li>
+        <li>Watermellon <button onclick="handleDelete(event)">Delete</button></li>
+        <li>pomigranite <button onclick="handleDelete(event)">Delete</button></li>
+    </ul>
+</body>
+</html>
